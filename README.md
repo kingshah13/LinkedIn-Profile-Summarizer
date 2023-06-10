@@ -77,3 +77,9 @@ Replace the `"Enter LinkedIn Profile URL"` placeholder with the actual LinkedIn 
 
 - The script relies on the `linkedin_api` library, which may have its own limitations or restrictions when interacting with the LinkedIn API. Ensure you comply with the library's usage guidelines and any rate limits imposed by LinkedIn.
 - The script assumes that the LinkedIn profile URL provided is valid and accessible. If the URL is incorrect or the profile is not publicly
+
+ visible, the script may fail to retrieve the necessary data.
+
+## Disclaimer
+
+This script is provided as-is. Use it at your own risk. The author bear no responsibility for any issues or damages arising from its use.
