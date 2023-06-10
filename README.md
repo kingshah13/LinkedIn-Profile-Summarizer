@@ -18,7 +18,7 @@ Before running the script, ensure that you have the following:
 4. You will be prompted to enter your LinkedIn username and password. This information is required to authenticate with the LinkedIn API.
 5. Enter the LinkedIn profile URL of the person you want to analyze in the `url` variable. Replace the `"Enter LinkedIn Profile URL"` placeholder with the actual URL.
 6. The script will retrieve the profile data using the LinkedIn API and extract the necessary details.
-7. Finally, the script will display a mentor profile summary containing the person's name, current position, current company, education, skills, and summary.
+7. Finally, the script will display a profile summary containing the person's name, current position, current company, education, skills, and summary.
 
 Note: The script does not store or transmit your LinkedIn username and password. It uses the `getpass` library to securely prompt for and receive the password input.
 
@@ -60,7 +60,7 @@ else:
     skills = []
 summary = profile_data.get('summary', '')
 
-# Create a mentor profile for the person
+# Create a profile for the person
 mentor_profile = f"{name} is currently working as a {current_position} at {current_company}. "
 if education:
     mentor_profile += f"{name} has a background in {', '.join(education)} and "
