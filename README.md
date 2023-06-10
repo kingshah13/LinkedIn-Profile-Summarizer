@@ -22,7 +22,7 @@ Before running the script, ensure that you have the following:
 
 Note: The script does not store or transmit your LinkedIn username and password. It uses the `getpass` library to securely prompt for and receive the password input.
 
-## Example
+## Code
 
 ```python
 from getpass import getpass
